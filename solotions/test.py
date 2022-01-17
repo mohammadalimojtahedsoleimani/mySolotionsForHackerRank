@@ -17,10 +17,13 @@ import itertools
 # result = itertools.product ( numbers , repeat = 4 )
 # for item in result:
 # 	print(item)
-
-import itertools
-
-A = [int(x) for x in input().split()]
-B = [int(y) for y in input().split()]
-
-print(*itertools.product(A, B))
+#
+# import itertools
+#
+# A = [int(x) for x in input().split()]
+# B = [int(y) for y in input().split()]
+#
+# print(*itertools.product(A, B))
+lip = [1, 2, 3, 4, 5]
+lip = map(str, lip)
+print(type(lip[0]))
