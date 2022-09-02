@@ -1,3 +1,5 @@
+
+# it isn't correct
 def merging(list1, list2):
     c = []
     if len(list1) == 0 and len(list2) == 0:
